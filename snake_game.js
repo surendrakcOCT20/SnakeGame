@@ -4,6 +4,7 @@ canvas.id = 'gameCanvas';
 canvas.width = 400;
 canvas.height = 400;
 canvas.style.backgroundColor = '#000';
+canvas.style.border = '2px solid white'; // Add a border around the canvas
 document.body.appendChild(canvas);
 
 const ctx = canvas.getContext('2d');
